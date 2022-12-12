@@ -1,0 +1,141 @@
+body {
+    background-color: #fffcf2;
+}
+
+.main {
+    z-index: 1;
+}
+
+.menuItem {
+    font-family: "Poppins";
+    font-weight: 600;
+    color: black;
+    transition: all .5s;
+}
+
+
+/* Seccion del menu mobil*/
+.collapseMenuBar {
+    height: 100px;
+    background: #9BAF85;
+}
+
+.hamburgerButton {
+    margin-top: 10px;
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: #9BAF85;
+    transition: all 0.15s;
+
+}
+
+.xSymbol {
+    height: 60px;
+    width: 60px;
+    transition: all 0.15s;
+}
+
+.mobileMenu {
+
+    position: absolute;
+    height: 100%;
+    max-height: 0;
+    width: 100%;
+    background-color: #9BAF85;
+    z-index: 3;
+    overflow-y: hidden;
+    transition: all 1s;
+}
+
+.mobileMenuOptions {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 2em;
+    color: black;
+    transition: all .5s;
+}
+
+/* Aqui se acaba esta seccion*/
+.logo {
+    width: 4.65em;
+    height: 6em;
+}
+
+.title {
+    font-size: 4.5em;
+    font-family: "Poppins";
+}
+
+.projectBox {
+    width: 400px;
+    height: 300px;
+    border: 3px solid #bcb8b1;
+    border-radius: 5px;
+}
+
+.projectTitleLink {
+    height: 3.5em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+    border-bottom: 3px solid #bcb8b1;
+}
+
+.projectTitle {
+    font-family: 'Nunito Sans';
+}
+
+.resumeAndButton {
+    width: 100%;
+
+}
+
+.downloadButton {
+    height: 50px;
+    border-radius: 3px;
+}
+
+.downloadButton a {
+    text-decoration: none;
+    color: black;
+}
+
+.resumeIMG {
+    border: 5px solid #bcb8b1;
+}
+
+.paragraphs {
+    font-family: 'Lato';
+    font-size: 1.25em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-family: 'Lato';
+    font-size: 1.25em;
+}
+
+.titleSub {
+    font-family: 'Poppins';
+}
+
+/*Estos transforman en italics las opciones del menu*/
+.menuItem:hover {
+    font-size: 1.04rem;
+    color: #D4A373;
+}
+
+/*Esto es para el hover del hamburger*/
+
+.hamburgerButton:hover {
+    border: 5px solid #bcb8b1;
+
+}
+
+.xSymbol:hover {
+    border-radius: 5px;
+    border: 5px solid #bcb8b1;
+}
